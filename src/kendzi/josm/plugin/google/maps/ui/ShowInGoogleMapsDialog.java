@@ -46,7 +46,7 @@ public class ShowInGoogleMapsDialog extends JDialog {
         contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.X_AXIS));
         {
             JLabel lblItIsForbitten = new JLabel(
-                    "<html><p><center><font size=+2 color=red>It is forbidden to use Google Maps to collect data and putting them inside OpenStreetMap!</center></font></p><html>");
+                    "<html><p><center><font size=+2 color=red>It is forbidden to use Google Maps to collect data and put inside OpenStreetMap!</center></font></p><html>");
             contentPanel.add(lblItIsForbitten);
         }
         {
