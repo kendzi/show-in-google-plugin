@@ -104,7 +104,7 @@ public class ShowInGoogleMapsAction extends JosmAction {
 
     private String formatGoogleUrl(LatLon latLon) {
         // https://maps.google.pl/?ll=51.950695,15.458547
-        return String.format("https://maps.google.pl/?ll=%s,%s&z=18", formatNumber(latLon.lat()), formatNumber(latLon.lon()));
+        return String.format("https://maps.google.pl/?ll=%s,%s&z=19", formatNumber(latLon.lat()), formatNumber(latLon.lon()));
     }
 
     private String formatNumber(double number) {
